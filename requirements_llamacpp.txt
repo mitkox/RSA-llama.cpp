@@ -1,0 +1,11 @@
+# Required dependencies for RSA evaluation with llama.cpp server
+numpy>=1.20.0
+requests>=2.25.0
+openai>=1.0.0
+
+# Optional but recommended for better performance
+datasets>=2.0.0
+tqdm>=4.60.0
+
+# Optional - fallback tokenization available if not installed
+transformers>=4.20.0
